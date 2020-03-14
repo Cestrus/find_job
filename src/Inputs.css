@@ -1,0 +1,17 @@
+.inputs{
+	display: inline-block;
+}
+.inputs div{
+	display: inline-block;
+
+}
+.inputs label{
+	margin: 50px 30px 0 50px;
+	color: lightgrey;
+}
+.inpDescription, .inpLocation{
+	font-size: 18px;
+	height: 25px;
+	width: 200px;
+
+}

@@ -1,0 +1,10 @@
+.btnSearch{
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	font-family: "Fira Code", "Courier New", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 50px;
+	padding-left: 5px;
+}

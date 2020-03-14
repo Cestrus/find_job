@@ -1,0 +1,82 @@
+.results_cont{
+	height: 70%;
+}
+.results_cont p{
+	margin: 10px auto;
+	color: lightgrey;
+	font-size: 20px;
+	text-align: center;
+}
+.results{
+	height: 90%;
+	overflow: auto;
+	color: lightgrey;
+	font-size: 12px;
+}
+.results a{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.container{
+	width: 90%;
+	padding: 5px 0;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas:
+		"vacancy location link"
+		"company date link";
+	grid-template-rows: 1fr 1fr;
+	grid-auto-columns: 60% 30% 10%;
+	border-bottom: 1px solid lightgrey;
+	align-items: center;
+
+}
+.vacancy{grid-area: vacancy;}
+.location{grid-area: location;}
+.link{grid-area: link;}
+.company{grid-area: company;}
+.date{grid-area: date;}
+
+/*.navigation{*/
+/*	margin: 10px auto;*/
+/*	width: 160px;*/
+/*}*/
+/*.navigation-hidden{*/
+/*	visibility: hidden;*/
+/*}*/
+/*.preview, .next {*/
+/*	width: 70px;*/
+/*	margin: 15px 5px;*/
+/*}*/
+
+/*<div className="navigation">*/
+/*                           <button*/
+/*                           className="preview"*/
+/*onClick={props.previewClick}*/
+/*>*/
+/*Preview*/
+/*				</button>*/
+/*                  <button*/
+/*                  className="next"*/
+/*onClick={props.nextClick}*/
+/*>*/
+/*Next*/
+/*				</button>*/
+/*                  </div>*/
+
+/*changePage(bool){*/
+/*	let page = this.state.page;*/
+/*(bool)? page++ : page--;*/
+/*this.setState({page});*/
+/*}*/
+/*previewClickHandler(){*/
+/*//TODO проверка на нулевую страницу*/
+/*this.changePage(false);*/
+/*	this.clickSearchHandler(this.state.page);*/
+/*}*/
+/*nextClickHandler(){*/
+/*// Todo поверка на конечную страницу*/
+/*this.changePage(true);*/
+/*	this.clickSearchHandler(this.state.page);*/
+/*}*/
